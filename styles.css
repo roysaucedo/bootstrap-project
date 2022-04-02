@@ -9,12 +9,16 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
-h1,h2,h3,p,a,li,ul,button {
-    font-family: 'Rubik', sans-serif;
-}
 
-h1 {
-    font-weight: 800;
+.container {
+    margin: 60px;
 }
 
 
+.hero-section {
+    background-image: url(img/bg-img.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 90vh;
+    color: white;
+}
